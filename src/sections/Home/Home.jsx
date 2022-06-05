@@ -1,0 +1,34 @@
+import background from "../../assets/background.jpg";
+import "./Home.scss";
+
+const Home = () => {
+  return (
+    <div id="home">
+      <div className="background">
+        <p>test</p>
+        <img className="background" src={background}></img>
+      </div>
+      <div className="name"></div>
+      <div className="title"></div>
+      <svg
+        width="32px"
+        height="32px"
+        viewBox="-3 0 32 32"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g id="icomoon-ignore"></g>
+        <path
+          d="M0 16c0 7.243 5.871 13.113 13.113 13.113s13.113-5.87 13.113-13.113c0-7.242-5.871-13.113-13.113-13.113s-13.113 5.871-13.113 13.113zM25.177 16c0 6.652-5.412 12.064-12.064 12.064s-12.064-5.412-12.064-12.064c0-6.652 5.411-12.064 12.064-12.064s12.064 5.412 12.064 12.064z"
+          fill="#000000"
+        ></path>
+        <path
+          d="M7.475 16.796l-0.742 0.742 6.379 6.379 6.378-6.379-0.742-0.742-5.112 5.112v-12.727h-1.049v12.727z"
+          fill="#000000"
+        ></path>
+      </svg>
+    </div>
+  );
+};
+
+export default Home;

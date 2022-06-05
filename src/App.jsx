@@ -1,14 +1,13 @@
 import React from "react";
-import { Home } from './sections';
-import Home from "./sections/Home/Home";
-import './App.css';
+import Home from "./sections/Home/Home.jsx";
+import "./App.scss";
 
 const App = () => {
   return (
     <div className="App">
-      <Home />
+      <Home></Home>
     </div>
   );
-}
+};
 
 export default App;
