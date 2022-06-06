@@ -1,15 +1,15 @@
+import Section from "../../components/Section/Section.jsx";
 import background from "../../assets/background.jpg";
 import "./Home.scss";
 
 const Home = () => {
   return (
-    <div id="home">
-      <div className="background">
-        <p>test</p>
-        <img className="background" src={background}></img>
+    <Section id="home">
+      <img className="background" src={background} alt="background"></img>
+      <div className="text flex column absolute">
+        <div className="name">Justine Provent</div>
+        <div className="title">Développeuse web freelance</div>
       </div>
-      <div className="name"></div>
-      <div className="title"></div>
       <svg
         width="32px"
         height="32px"
@@ -27,7 +27,7 @@ const Home = () => {
           fill="#000000"
         ></path>
       </svg>
-    </div>
+    </Section>
   );
 };
 
