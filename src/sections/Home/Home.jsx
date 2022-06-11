@@ -11,15 +11,30 @@ const Home = () => {
         <span className="menu">
           <span className="hamburger"></span>
         </span>
-        <ul>
+        <ul className="white">
+          <h3 className="menu-text">MENU</h3>
+          <p>-</p>
           <li>
-            <a href="#">Home</a>
+            <a href="#">Accueil</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#">Qui suis-je ?</a>
+          </li>
+          <li>
+            <a href="#">Notre collaboration</a>
+          </li>
+          <li>
+            <a href="#">Mes services</a>
+          </li>
+          <li>
+            <a href="#">Portfolio</a>
           </li>
           <li>
             <a href="#">Contact</a>
+          </li>
+          <p>-</p>
+          <li>
+            <a href="#">Profil Malt</a>
           </li>
         </ul>
       </label>
