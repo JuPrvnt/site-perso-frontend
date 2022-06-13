@@ -6,21 +6,21 @@
 
 label .menu {
   position: absolute;
-  right: -100px;
-  top: -100px;
+  right: 0px;
+  top: 0px;
   z-index: 100;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   transition: 0.5s ease-in-out;
   cursor: pointer;
 }
 
 label .hamburger {
   position: absolute;
-  top: 135px;
-  left: 50px;
-  width: 30px;
-  height: 2px;
+  top: 45px;
+  left: 40px;
+  width: 35px;
+  height: 3px;
   background: #f2ece8;
   transition: 0.5s ease-in-out;
 }
