@@ -1,48 +1,19 @@
 import Section from "../../components/Section/Section.jsx";
+import Menu from "../../components/Menu/Menu";
 import background from "../../assets/background.jpg";
+import logo from "../../assets/logo-home.png";
 import "./Home.scss";
 
 const Home = () => {
   return (
     <Section id="home">
+      <Menu></Menu>
       <img className="background" src={background} alt="background"></img>
-      <label>
-        <input type="checkbox"></input>
-        <span className="menu">
-          <span className="hamburger"></span>
-        </span>
-        <ul className="white">
-          <h3 className="menu-text">MENU</h3>
-          <p>-</p>
-          <li>
-            <a href="#">Accueil</a>
-          </li>
-          <li>
-            <a href="#">Qui suis-je ?</a>
-          </li>
-          <li>
-            <a href="#">Notre collaboration</a>
-          </li>
-          <li>
-            <a href="#">Mes services</a>
-          </li>
-          <li>
-            <a href="#">Portfolio</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-          <p>-</p>
-          <li>
-            <a href="#">Profil Malt</a>
-          </li>
-        </ul>
-      </label>
+      <img className="logo" src={logo} alt="logo"></img>
       <div className="text flex column absolute">
         <div className="name">Justine Provent</div>
-        <div className="title">Développeuse web freelance</div>
+        <div className="title">Développeuse responsable</div>
       </div>
-
       <svg
         className="arrow"
         version="1.1"
