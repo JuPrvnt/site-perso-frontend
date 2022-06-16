@@ -1,5 +1,6 @@
 import Section from "../../components/Section/Section.jsx";
 import Justine from "../../assets/justine-profil.jpg";
+import CV from "../../assets/CV_Justine_Provent.pdf";
 import "./Who.scss";
 
 const Who = () => {
@@ -8,11 +9,21 @@ const Who = () => {
       <div className="style-who">
         <h1>Qui suis-je ?</h1>
         <div className="who-content">
-          <img
-            className="justine-profil"
-            src={Justine}
-            alt="justine-profil"
-          ></img>
+          <div className="who-media">
+            <img
+              className="justine-profil"
+              src={Justine}
+              alt="justine-profil"
+            ></img>
+            <a
+              href={CV}
+              alt="CV_Justine_Provent"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="button">Téléchargez mon CV 🚀</button>
+            </a>
+          </div>
           <div className="who-text">
             <p>
               Je m’appelle Justine, j’ai 26 ans et je suis développeuse web en
