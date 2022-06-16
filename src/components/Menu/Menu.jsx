@@ -35,8 +35,8 @@ const Menu = () => {
               </a>
             </li>
             <li>
-              <a className="link-menu" href="#">
-                Notre collaboration
+              <a className="link-menu" href="#portfolio" onClick={handleClick}>
+                Portfolio
               </a>
             </li>
             <li>
@@ -46,7 +46,7 @@ const Menu = () => {
             </li>
             <li>
               <a className="link-menu" href="#">
-                Portfolio
+                Notre collaboration
               </a>
             </li>
             <li>
@@ -56,7 +56,7 @@ const Menu = () => {
             </li>
             <p>-</p>
             <li>
-              <a className="link-menu" href="#">
+              <a className="link-menu" href="https://www.malt.fr/">
                 Profil Malt
               </a>
             </li>
