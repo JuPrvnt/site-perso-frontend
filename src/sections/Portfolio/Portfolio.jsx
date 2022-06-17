@@ -8,7 +8,7 @@ const Portfolio = () => {
   return (
     <Section id="portfolio">
       <div className="style-portfolio">
-        <h1>Mes projets.</h1>
+        <h1>Mon portfolio.</h1>
         <Carousel>
           <a
             href="https://juprvnt.github.io/JustineProvent_3_02122021/"
