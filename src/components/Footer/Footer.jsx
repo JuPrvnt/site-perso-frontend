@@ -7,8 +7,10 @@ const Footer = () => {
     <Section id="footer">
       <div className="style-footer">
         <div className="links-footer">
-          <a>Qui suis-je ?</a> - <a>Mon portfolio</a> - <a>Vos besoins</a> -
-          <a> Notre collaboration</a> - <a>Contact</a>
+          <a href="#who">Qui suis-je ?</a> -
+          <a href="#portfolio"> Mon portfolio</a> -
+          <a href="#services"> Vos besoins</a> -
+          <a href="#partnership"> Notre collaboration</a> - <a>Contact</a>
         </div>
         <div className="signature">
           <img

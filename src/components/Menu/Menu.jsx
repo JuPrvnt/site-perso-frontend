@@ -40,17 +40,21 @@ const Menu = () => {
               </a>
             </li>
             <li>
-              <a className="link-menu" href="#">
+              <a className="link-menu" href="#services" onClick={handleClick}>
                 Mes services
               </a>
             </li>
             <li>
-              <a className="link-menu" href="#">
+              <a
+                className="link-menu"
+                href="#partnership"
+                onClick={handleClick}
+              >
                 Notre collaboration
               </a>
             </li>
             <li>
-              <a className="link-menu" href="#">
+              <a className="link-menu" href="#contact" onClick={handleClick}>
                 Contact
               </a>
             </li>
