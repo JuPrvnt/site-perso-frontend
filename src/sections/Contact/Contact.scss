@@ -1,0 +1,29 @@
+#contact {
+  background-color: #b5a396;
+  color: #f2ece8;
+}
+
+.style-contact {
+  margin: 50px 15% 50px 15%;
+  font-size: 17px;
+  text-align: center;
+}
+
+.contact-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  width: 30px;
+  fill: #f2ece8;
+  margin-right: 20px;
+}
+
+.hidden {
+  visibility: hidden;
+}
