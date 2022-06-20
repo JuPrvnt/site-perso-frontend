@@ -7,11 +7,28 @@ const Footer = () => {
     <div id="footer">
       <div className="style-footer">
         <div className="links-footer">
-          <a href="#who">Qui suis-je ?</a> -
-          <a href="#portfolio"> Mon portfolio</a> -
-          <a href="#services"> Vos besoins</a> -
-          <a href="#partnership"> Notre collaboration</a> -{" "}
-          <a href="#contact">Contact</a>
+          <a className="white-links" href="#who">
+            Qui suis-je ?
+          </a>{" "}
+          -
+          <a className="white-links" href="#portfolio">
+            {" "}
+            Mon portfolio
+          </a>{" "}
+          -
+          <a className="white-links" href="#services">
+            {" "}
+            Vos besoins
+          </a>{" "}
+          -
+          <a className="white-links" href="#partnership">
+            {" "}
+            Notre collaboration
+          </a>{" "}
+          -{" "}
+          <a className="white-links" href="#contact">
+            Contact
+          </a>
         </div>
         <div className="signature">
           <img

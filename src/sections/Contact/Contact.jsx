@@ -66,7 +66,9 @@ const Contact = () => {
           />
         </svg>
 
-        <p>justine.provent90@gmail.com</p>
+        <a className="white-links" href="mailto:justine.provent90@mail.com">
+          justine.provent90@gmail.com
+        </a>
       </div>
     </div>
   );

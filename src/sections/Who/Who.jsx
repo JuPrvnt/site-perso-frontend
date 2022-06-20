@@ -19,7 +19,7 @@ const Who = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="button">Par ici mon CV 🚀</button>
+            <button className="button">Mon CV 🚀</button>
           </a>
         </div>
         <div className="who-text">
@@ -46,34 +46,37 @@ const Who = () => {
           </p>
         </div>
       </div>
-      <p className="title-who">
-        Mon ambission : développer de manière responsable.
-      </p>
-      <p>
-        Aujourd'hui je de me lance en freelance en tant que « JP - Développeuse
-        responsable ». Le saviez-vous ? Si internet était un pays, il serait le
-        3ème plus gros consommateur d'énergie au monde après les US et la Chine.
-        Dans le monde dans lequel nous vivons, nous devons faire face à bien des
-        challenges et certains nous touchent d'avantage. Pour ma part, c'est
-        l'écologie. Comprenez donc mon dilemme. Comment lier écologie et
-        technologie ? Ce sont deux sujets qui finalement sont incompatibles,
-        certains diraient même, déconnectés. J'ai donc décidé d'être le «
-        connecteur », de ces deux éléments qui font part intégrante de notre
-        quotidien. Comment ? En faisant en sorte de produire des sites web,
-        applications, réseaux sociaux de manière responsable, en allégeant le
-        poids de ces outils sur les serveurs par exemple. Quel intérêt pour mes
-        clients ? Au-delà de participer à la préservation de notre
-        environnement, cela permettra d'avoir des billes supplémentaires dans
-        son argumentaire de vente. En précisant que vos outils sont éco-conçus,
-        vous serez l'un des pionniers dans votre secteur à intégrer la
-        programmation consciente dans vos activités. Dans une Europe qui demande
-        de plus en plus de transparence aux entreprises dans leur devoir de
-        vigilance (Due Diligence), il faut être irréprochable sur tous les
-        aspects. C'est cette même Europe qui à lever en février dernier 110
-        millions d'euros pour des projets environnementaux, il y a donc un enjeu
-        écologique mais aussi économique. Je serai donc heureuse de vous aider à
-        surfer sur le web, mais aussi sur la vague verte.
-      </p>
+      <div className="who-eco-content">
+        <p className="title-who">
+          Mon ambission : développer de manière responsable.
+        </p>
+        <p>
+          Aujourd'hui je de me lance en freelance en tant que « JP -
+          Développeuse responsable ». Le saviez-vous ? Si internet était un
+          pays, il serait le 3ème plus gros consommateur d'énergie au monde
+          après les US et la Chine. Dans le monde dans lequel nous vivons, nous
+          devons faire face à bien des challenges et certains nous touchent
+          d'avantage. Pour ma part, c'est l'écologie. Comprenez donc mon
+          dilemme. Comment lier écologie et technologie ? Ce sont deux sujets
+          qui finalement sont incompatibles, certains diraient même,
+          déconnectés. J'ai donc décidé d'être le « connecteur », de ces deux
+          éléments qui font part intégrante de notre quotidien. Comment ? En
+          faisant en sorte de produire des sites web, applications, réseaux
+          sociaux de manière responsable, en allégeant le poids de ces outils
+          sur les serveurs par exemple. Quel intérêt pour mes clients ? Au-delà
+          de participer à la préservation de notre environnement, cela permettra
+          d'avoir des billes supplémentaires dans son argumentaire de vente. En
+          précisant que vos outils sont éco-conçus, vous serez l'un des
+          pionniers dans votre secteur à intégrer la programmation consciente
+          dans vos activités. Dans une Europe qui demande de plus en plus de
+          transparence aux entreprises dans leur devoir de vigilance (Due
+          Diligence), il faut être irréprochable sur tous les aspects. C'est
+          cette même Europe qui à lever en février dernier 110 millions d'euros
+          pour des projets environnementaux, il y a donc un enjeu écologique
+          mais aussi économique. Je serai donc heureuse de vous aider à surfer
+          sur le web, mais aussi sur la vague verte.
+        </p>
+      </div>
     </div>
   );
 };
