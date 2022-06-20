@@ -59,7 +59,11 @@ const Menu = () => {
             </li>
             <p>-</p>
             <li>
-              <a className="link-menu" href="https://www.malt.fr/">
+              <a
+                className="link-menu"
+                target="_blank"
+                href="https://www.malt.fr/"
+              >
                 Profil Malt
               </a>
             </li>

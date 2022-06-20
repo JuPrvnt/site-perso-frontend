@@ -27,7 +27,10 @@ const Footer = () => {
           ></img>
         </div>
         <div className="legal">
-          © 2022 Justine Provent – <Link to="/legal">Mentions légales</Link>
+          © 2022 Justine Provent –{" "}
+          <Link to="/legal" target="_blank">
+            Mentions légales
+          </Link>
         </div>
       </div>
     </div>
