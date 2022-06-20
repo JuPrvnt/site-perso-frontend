@@ -1,11 +1,14 @@
 #partnership {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px 15% 0px 15%;
+  font-size: 17px;
   background-color: #f2ece8;
   color: #3b6661;
-}
-
-.style-partnership {
-  margin: 50px 15% 50px 15%;
-  font-size: 17px;
+  height: 100vh;
 }
 
 .partnership-content {

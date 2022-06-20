@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Section from "../../components/Section/Section.jsx";
 import "./Menu.scss";
 
 const Menu = () => {
@@ -14,7 +13,7 @@ const Menu = () => {
   });
 
   return (
-    <Section id="menu">
+    <div id="menu">
       {showMenu && (
         <label>
           <input className="checkbox" type="checkbox"></input>
@@ -67,7 +66,7 @@ const Menu = () => {
           </ul>
         </label>
       )}
-    </Section>
+    </div>
   );
 };
 

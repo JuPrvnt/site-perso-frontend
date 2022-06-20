@@ -1,16 +1,16 @@
-import Section from "../../components/Section/Section.jsx";
 import passion from "../../assets/passion.png";
 import "./Footer.scss";
 
 const Footer = () => {
   return (
-    <Section id="footer">
+    <div id="footer">
       <div className="style-footer">
         <div className="links-footer">
           <a href="#who">Qui suis-je ?</a> -
           <a href="#portfolio"> Mon portfolio</a> -
           <a href="#services"> Vos besoins</a> -
-          <a href="#partnership"> Notre collaboration</a> - <a>Contact</a>
+          <a href="#partnership"> Notre collaboration</a> -{" "}
+          <a href="#contact">Contact</a>
         </div>
         <div className="signature">
           <img
@@ -29,7 +29,7 @@ const Footer = () => {
           © 2022 Justine Provent – <a>Mentions légales</a>
         </div>
       </div>
-    </Section>
+    </div>
   );
 };
 
