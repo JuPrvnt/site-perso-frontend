@@ -5,7 +5,7 @@ import "./Who.scss";
 const Who = () => {
   return (
     <div id="who">
-      <h1>Qui suis-je ?</h1>
+      <h2>Qui suis-je ?</h2>
       <div className="who-content">
         <div className="who-media">
           <img

@@ -18,10 +18,10 @@ const Home = () => {
         <a href="#home">
           <img className="logo" src={logo} alt="logo"></img>
         </a>
-        <div className="text flex column absolute">
+        <h1 className="text flex column absolute">
           <div className="name">Justine Provent</div>
           <div className="title">Développeuse responsable</div>
-        </div>
+        </h1>
         <a href="#who" className="arrow">
           <svg
             className="arrow"

@@ -6,7 +6,7 @@ import "./Portfolio.scss";
 const Portfolio = () => {
   return (
     <div id="portfolio">
-      <h1>Mon portfolio.</h1>
+      <h2>Mon portfolio.</h2>
       <Carousel>
         <a
           className="text-decoration-none"
