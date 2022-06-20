@@ -80,3 +80,12 @@ ul {
   justify-content: center;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 810px) {
+  .who-content {
+    flex-direction: column;
+  }
+  .who-media {
+    margin-right: 0px;
+  }
+}

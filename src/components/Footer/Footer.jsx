@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
         <div className="legal">
           © 2022 Justine Provent –{" "}
-          <Link to="/legal" target="_blank">
+          <Link to="/legal" target="_blank" className="white">
             Mentions légales
           </Link>
         </div>

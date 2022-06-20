@@ -91,3 +91,45 @@ $ease: cubic-bezier(0.2, 1, 0.3, 1);
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 810px) {
+  .carousel-container {
+    width: 350px;
+  }
+
+  .carousel-wrapper {
+    width: 350px;
+  }
+
+  .carousel-content-wrapper {
+    width: 350px;
+  }
+
+  .carousel-arrow-wrapper {
+    .carousel-svg {
+      width: 40px;
+    }
+  }
+
+  .left-arrow {
+    left: -100px;
+  }
+
+  .right-arrow {
+    right: -100px;
+  }
+}
+
+@media screen and (max-width: 395px) {
+  .carousel-container {
+    width: 200px;
+  }
+
+  .carousel-wrapper {
+    width: 200px;
+  }
+
+  .carousel-content-wrapper {
+    width: 200px;
+  }
+}
