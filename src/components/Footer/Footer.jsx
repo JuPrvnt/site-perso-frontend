@@ -7,6 +7,10 @@ const Footer = () => {
     <div id="footer">
       <div className="style-footer">
         <div className="links-footer">
+          <a className="white-links" href="#home">
+            Accueil
+          </a>{" "}
+          -{" "}
           <a className="white-links" href="#who">
             Qui suis-je ?
           </a>{" "}

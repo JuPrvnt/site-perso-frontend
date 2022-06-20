@@ -61,6 +61,7 @@ const Menu = () => {
             <li>
               <a
                 className="link-menu"
+                rel="noreferrer"
                 target="_blank"
                 href="https://www.malt.fr/"
               >
