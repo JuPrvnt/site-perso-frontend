@@ -1,30 +1,22 @@
+import { Link } from "react-router-dom";
+import background from "../../assets/background.jpg";
+import logo from "../../assets/logo-home.png";
 import "./Legal.scss";
 
 const Legal = () => {
   return (
-    <div id="services">
-      <div className="style-services">
-        <h2>Vos besoins.</h2>
-        <div className="block-services">
-          <div className="services">
-            <p>
-              Je créée vos maquettes (à l’aide de l’outil Figma) selon vos
-              envies et vos besoins, jusqu’à obtenir exactement ce que vous
-              souhaitez !
-            </p>
-            <p className="price-services">À partir de 69,99€</p>
-          </div>
-          <div className="services">
-            <p>J’intègre vos maquettes avec HMTL5, CSS3 et React.js.</p>
-            <p className="price-services">À partir de 89,99€</p>
-          </div>
-          <div className="services">
-            <p>
-              Je développe votre site en prenant en compte : L’eco-conception Le
-              référencement naturel Le responsive design
-            </p>
-            <p className="price-services">À partir de 499,99€</p>
-          </div>
+    <div id="legal">
+      <img className="background-legal" src={background} alt="background"></img>
+      <Link to="/">
+        <img className="logo" src={logo} alt="logo"></img>
+      </Link>
+      <div className="background-legal-white">
+        <div>
+          <h2>MENTIONS LÉGALES</h2>
+          <p className="legal-content">
+            Éditrice du site Justine Provent SIRET : 913 296 695 00012 Code APE
+            : 6201Z 9 rue de la Croix 90100 Fêche-l’Église France
+          </p>
         </div>
       </div>
     </div>

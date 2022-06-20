@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import passion from "../../assets/passion.png";
 import "./Footer.scss";
 
@@ -26,7 +27,7 @@ const Footer = () => {
           ></img>
         </div>
         <div className="legal">
-          © 2022 Justine Provent – <a>Mentions légales</a>
+          © 2022 Justine Provent – <Link to="/legal">Mentions légales</Link>
         </div>
       </div>
     </div>

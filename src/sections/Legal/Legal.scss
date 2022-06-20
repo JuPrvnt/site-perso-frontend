@@ -1,0 +1,22 @@
+#legal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #3b6661;
+}
+
+.background-legal {
+  object-fit: cover;
+  height: 100vh;
+}
+
+.background-legal-white {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 80%;
+  height: 80%;
+  background-color: #f2ece8;
+  opacity: 0.8;
+  position: absolute;
+}
