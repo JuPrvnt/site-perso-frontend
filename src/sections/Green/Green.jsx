@@ -4,15 +4,13 @@ const Green = () => {
   return (
     <div id="green">
       <div className="green-eco-content">
-        <h2 className="title-green">
-          Mon ambition : développer de manière responsable.
-        </h2>
+        <h2 className="title-green">Mon ambition : éco-développer.</h2>
         <p>
-          Aujourd'hui je me suis lancée en freelance en tant que « Développeuse
-          responsable ». Mais pourquoi ? Et de quoi s'agit-il ? <br />
-          <span>Est-ce que vous saviez que</span> : si internet était un pays,
-          il serait le 3e plus gros consommateur d'énergie au monde après les
-          États-Unis et la Chine ? Effrayant non ? 😵 <br />
+          Aujourd'hui je me suis lancée en freelance en tant que «
+          Eco-Développeuse ». Mais pourquoi ? Et de quoi s'agit-il ? <br />
+          <span>Funfact</span> : si internet était un pays, il serait le 3e plus
+          gros consommateur d'énergie au monde après les États-Unis et la Chine
+          ? Effrayant non ? 😵 <br />
           Dans le monde dans lequel nous vivons, nous devons faire face à bien
           des challenges et certains nous touchent d'avantage. Pour ma part,
           c'est <span>l'écologie</span>. Vous comprenez donc mon dilemme.
