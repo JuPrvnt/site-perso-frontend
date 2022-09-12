@@ -1,0 +1,85 @@
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+.background {
+  object-fit: cover;
+  height: 100vh;
+}
+
+.logo {
+  top: 5px;
+  left: 5px;
+  width: 130px;
+  height: auto;
+  position: fixed;
+}
+
+.text {
+  align-self: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.name {
+  font-size: 80px;
+  color: #3b6661;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.arrow {
+  display: flex;
+  fill: #f2ece8;
+  width: 60px;
+  height: 60px;
+  align-self: center;
+  bottom: 3%;
+  position: absolute;
+
+  &:first {
+    animation: bounce 0.35s ease infinite alternate;
+    cursor: pointer;
+  }
+
+  @keyframes bounce {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-20px);
+    }
+  }
+
+  &:hover {
+    animation: bounce 0.35s ease infinite alternate;
+    cursor: pointer;
+  }
+
+  @keyframes bounce {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-20px);
+    }
+  }
+}

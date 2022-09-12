@@ -1,0 +1,39 @@
+#services {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #3b6661;
+  color: #f2ece8;
+  padding: 100px 15% 100px 15%;
+  font-size: 17px;
+}
+
+.block-services {
+  display: flex;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f2ece8;
+  color: #3b6661;
+  margin: 50px;
+  padding: 40px;
+  width: 200px;
+  height: 500px;
+}
+
+.price-services {
+  padding-top: 100px;
+}
+
+p {
+  margin: 0px;
+}
+
+@media screen and (max-width: 810px) {
+  .block-services {
+    flex-wrap: wrap;
+  }
+}

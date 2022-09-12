@@ -1,0 +1,38 @@
+#legal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #3b6661;
+}
+
+.background-legal {
+  object-fit: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.background-legal-white {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: start;
+  background-attachment: scroll;
+  width: 80%;
+  max-height: 80%;
+  overflow: auto;
+  background-color: #f2ece8;
+  opacity: 0.8;
+  position: absolute;
+  padding: 20px;
+}
+
+.title-legal {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #3b6661;
+  text-decoration: underline;
+}
