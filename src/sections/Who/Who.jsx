@@ -19,7 +19,7 @@ const Who = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="button">Mon CV 🚀</button>
+            <button className="button">Voir mon CV 🚀</button>
           </a>
         </div>
         <div className="who-text">
