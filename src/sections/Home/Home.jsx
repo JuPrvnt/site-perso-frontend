@@ -21,7 +21,7 @@ const Home = () => {
         </a>
         <h1 className="text flex column absolute">
           <div className="name">Justine Provent</div>
-          <div className="title">Développeuse responsable</div>
+          <div className="title">Développeuse Web Responsable</div>
         </h1>
         <a href="#who" className="arrow">
           <svg
