@@ -44,20 +44,6 @@ const Menu = () => {
               </a>
             </li>
             <li>
-              <a className="link-menu" href="#services" onClick={handleClick}>
-                Mes services
-              </a>
-            </li>
-            <li>
-              <a
-                className="link-menu"
-                href="#partnership"
-                onClick={handleClick}
-              >
-                Notre collaboration
-              </a>
-            </li>
-            <li>
               <a className="link-menu" href="#contact" onClick={handleClick}>
                 Contact
               </a>
@@ -73,6 +59,17 @@ const Menu = () => {
                 Profil Malt
               </a>
             </li>
+            <li>
+              <a
+                className="link-menu"
+                rel="noreferrer"
+                target="_blank"
+                href="https://www.linkedin.com/in/justine-provent-developpeuse-web/"
+              >
+                Profil LinkedIn
+              </a>
+            </li>
+            <p>-</p>
           </ul>
         </label>
       )}

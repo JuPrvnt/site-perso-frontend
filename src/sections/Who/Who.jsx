@@ -1,5 +1,6 @@
 import Justine from "../../assets/justine-profil.jpg";
 import CV from "../../assets/CV_Justine_Provent.pdf";
+import Diplôme from "../../assets/Diplome web dev.pdf";
 import "./Who.scss";
 
 const Who = () => {
@@ -11,8 +12,16 @@ const Who = () => {
           Développeuse web <span>organisée</span>, <span>créative</span> et{" "}
           <span>rigoureuse</span> qui a à coeur de bien faire les choses, je
           m'appelle Justine et suis diplômée d'un Master 2 en Marketing et
-          Stratégies Digitales ainsi que d'un diplôme de Développeuse Web. Mes
-          études et formation m'ont permises de développer de multiples
+          Stratégies Digitales ainsi que d'un{" "}
+          <a
+            href={Diplôme}
+            alt="Diplôme web développeuse"
+            target="_blank"
+            rel="noreferrer"
+          >
+            diplôme de Développeuse Web
+          </a>
+          . Mes études et formation m'ont permises de développer de multiples
           compétences :
           <div className="who-center">
             <div className="who-skills">

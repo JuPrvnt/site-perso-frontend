@@ -5,7 +5,13 @@ import "./Portfolio.scss";
 const Portfolio = () => {
   return (
     <div id="portfolio">
-      <h2>Mon portfolio.</h2>
+      <h2>
+        Mon portfolio{" "}
+        <span className="portfolio-text">
+          (qui n'attend plus que vos projets)
+        </span>
+        .
+      </h2>
       <div className="portfolio-content">
         <div className="portfolio-cards">
           <img

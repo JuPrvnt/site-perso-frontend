@@ -19,16 +19,6 @@ const Footer = () => {
             {" "}
             Mon portfolio
           </a>{" "}
-          -
-          <a className="white-links" href="#services">
-            {" "}
-            Vos besoins
-          </a>{" "}
-          -
-          <a className="white-links" href="#partnership">
-            {" "}
-            Notre collaboration
-          </a>{" "}
           -{" "}
           <a className="white-links" href="#contact">
             Contact
