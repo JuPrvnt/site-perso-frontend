@@ -8,6 +8,9 @@ import "./App.scss";
 const App = () => {
   return (
     <div className="App">
+      <div class="section-loading-spinner">
+        <div class="spinner"></div>
+      </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/legal" element={<Legal />} />
