@@ -18,10 +18,10 @@ const Legal = () => {
           sens des articles 1123 et suivants du Code civil, ou personne morale,
           qui visite le Site objet des présentes conditions générales.
           <br />
-          <b>Prestations et Services :</b>
+          <b>Prestations et Services :</b>{" "}
           <a href="https://www.justineprovent.com">
             https://www.justineprovent.com
-          </a>
+          </a>{" "}
           met à disposition des Clients :
         </p>
         <p>
@@ -31,10 +31,10 @@ const Legal = () => {
         <p>
           <b>Informations clients :</b> Ci après dénommé « Information (s) » qui
           correspondent à l’ensemble des données personnelles susceptibles
-          d’être détenues par
+          d’être détenues par{" "}
           <a href="https://www.justineprovent.com">
             https://www.justineprovent.com
-          </a>
+          </a>{" "}
           pour la gestion de votre compte, de la gestion de la relation client
           et à des fins d’analyses et de statistiques.
         </p>
@@ -57,7 +57,7 @@ const Legal = () => {
         <p>
           En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004 pour la
           confiance dans l'économie numérique, il est précisé aux utilisateurs
-          du site internet
+          du site internet{" "}
           <a href="https://www.justineprovent.com">
             https://www.justineprovent.com
           </a>{" "}
@@ -77,7 +77,6 @@ const Legal = () => {
           <strong>Webmaster</strong> : Justine Provent –
           justine.provent90@gmail.com
           <br />
-          <strong>Hébergeur</strong> : ovh – 2 rue Kellermann 59100 Roubaix 1007
           <br />
           <strong>Délégué à la protection des données</strong> : Justine Provent
           – justine.provent90@gmail.com
@@ -85,7 +84,7 @@ const Legal = () => {
         </p>
         <div>
           <p>
-            Ces mentions légales RGPD sont issues du
+            Ces mentions légales RGPD sont issues du{" "}
             <a
               href="https://fr.orson.io/1371/generateur-mentions-legales"
               title="générateur gratuit de mentions légales pour un site internet"
@@ -106,35 +105,35 @@ const Legal = () => {
           des éléments ou travaux du Site.
         </p>
         <p>
-          L’utilisation du site
+          L’utilisation du site{" "}
           <a href="https://www.justineprovent.com">
             https://www.justineprovent.com
-          </a>
+          </a>{" "}
           implique l’acceptation pleine et entière des conditions générales
           d’utilisation ci-après décrites. Ces conditions d’utilisation sont
           susceptibles d’être modifiées ou complétées à tout moment, les
-          utilisateurs du site
+          utilisateurs du site{" "}
           <a href="https://www.justineprovent.com">
             https://www.justineprovent.com
-          </a>
+          </a>{" "}
           sont donc invités à les consulter de manière régulière.
         </p>
         <p>
           Ce site internet est normalement accessible à tout moment aux
           utilisateurs. Une interruption pour raison de maintenance technique
-          peut être toutefois décidée par
+          peut être toutefois décidée par{" "}
           <a href="https://www.justineprovent.com">
             https://www.justineprovent.com
-          </a>
+          </a>{" "}
           , qui s’efforcera alors de communiquer préalablement aux utilisateurs
-          les dates et heures de l’intervention. Le site web
+          les dates et heures de l’intervention. Le site web{" "}
           <a href="https://www.justineprovent.com">
             https://www.justineprovent.com
-          </a>
-          est mis à jour régulièrement par
+          </a>{" "}
+          est mis à jour régulièrement par{" "}
           <a href="https://www.justineprovent.com">
             https://www.justineprovent.com
-          </a>
+          </a>{" "}
           responsable. De la même façon, les mentions légales peuvent être
           modifiées à tout moment : elles s’imposent néanmoins à l’utilisateur
           qui est invité à s’y référer le plus souvent possible afin d’en
@@ -142,26 +141,26 @@ const Legal = () => {
         </p>
         <h3>3. Description des services fournis.</h3>
         <p>
-          Le site internet
+          Le site internet{" "}
           <a href="https://www.justineprovent.com">
             https://www.justineprovent.com
-          </a>
+          </a>{" "}
           a pour objet de fournir une information concernant l’ensemble des
-          activités de la société.
+          activités de la société.{" "}
           <a href="https://www.justineprovent.com">
             https://www.justineprovent.com
-          </a>
-          s’efforce de fournir sur le site
+          </a>{" "}
+          s’efforce de fournir sur le site{" "}
           <a href="https://www.justineprovent.com">
             https://www.justineprovent.com
-          </a>
+          </a>{" "}
           des informations aussi précises que possible. Toutefois, il ne pourra
           être tenu responsable des oublis, des inexactitudes et des carences
           dans la mise à jour, qu’elles soient de son fait ou du fait des tiers
           partenaires qui lui fournissent ces informations.
         </p>
         <p>
-          Toutes les informations indiquées sur le site
+          Toutes les informations indiquées sur le site{" "}
           <a href="https://www.justineprovent.com">
             https://www.justineprovent.com
           </a>{" "}
@@ -297,7 +296,7 @@ const Legal = () => {
           Provent.{" "}
           <a href="https://www.justineprovent.com">
             https://www.justineprovent.com
-          </a>
+          </a>{" "}
           est représenté par Justine Provent, son représentant légal
         </p>
         <p>
@@ -576,7 +575,7 @@ const Legal = () => {
           Lors du traitement des Données Personnelles,{" "}
           <a href="https://www.justineprovent.com">
             https://www.justineprovent.com
-          </a>
+          </a>{" "}
           prend toutes les mesures raisonnables visant à les protéger contre
           toute perte, utilisation détournée, accès non autorisé, divulgation,
           altération ou destruction.

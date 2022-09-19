@@ -3,10 +3,10 @@ import "./Contact.scss";
 const Contact = () => {
   return (
     <div id="contact">
-      <h2>Alors, c'est parti ?</h2>
+      <h2>Alors, on développe des projets ensemble ?</h2>
       <div className="text-contact">
-        Contactez-moi dès aujourd’hui et discutons ensemble de votre projet
-        digital. <br />
+        Contactez-moi dès aujourd’hui et discutons ensemble de votre projet.{" "}
+        <br />
         Je suis disponible par mail et par téléphone. <br />
         Je serai ravie de vous rencontrez ! À bientôt.
       </div>
