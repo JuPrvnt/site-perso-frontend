@@ -6,11 +6,13 @@ const Green = () => {
       <div className="green-eco-content">
         <h2 className="title-green">Mon ambition : éco-développer.</h2>
         <p>
-          Aujourd'hui je me suis lancée en freelance en tant que «
-          Eco-Développeuse ». Mais pourquoi ? Et de quoi s'agit-il ? <br />
+          Aujourd'hui je me suis lancée comme ambition d'« éco-développer ».
+          Mais pourquoi ? Et de quoi s'agit-il ? <br />
+          <br />
           <span>Funfact</span> : si internet était un pays, il serait le 3e plus
           gros consommateur d'énergie au monde après les États-Unis et la Chine
           ? Effrayant non ? 😵 <br />
+          <br />
           Dans le monde dans lequel nous vivons, nous devons faire face à bien
           des challenges et certains nous touchent d'avantage. Pour ma part,
           c'est <span>l'écologie</span>. Vous comprenez donc mon dilemme.
@@ -18,15 +20,20 @@ const Green = () => {
           sont deux sujets qui finalement sont, en apparence, « incompatibles »,
           certains diraient même, « déconnectés ».
           <br />
+          <br />
           Alors j'ai décidé d'être le « connecteur », de ces deux éléments qui
           font part intégrante de notre quotidien. <br />
           <span>Comment</span> ? En faisant en sorte de produire des sites web,
-          applications, réseaux sociaux de manière responsable. <br />
+          applications, réseaux sociaux de manière responsable. Alors je n'aurai
+          pas la prétention de connaître tous les trucs et astuces, mais
+          j'apprends chaque jour pour m'améliorer ! <br />
+          <br />
           <span>Mais quel intérêt pour vous</span> ? Au-delà de participer à la
           préservation de notre environnement, cela vous permettra d'avoir des
           arguments supplémentaires. En précisant que vos outils sont
           éco-conçus, vous serez l'un des pionniers dans votre secteur à
           intégrer la programmation consciente dans vos activités. <br />
+          <br />
           Dans une Europe qui demande de plus en plus de transparence aux
           entreprises dans leur devoir de vigilance (Due Diligence), il faut
           être irréprochable sur tous les aspects. C'est cette même Europe qui à

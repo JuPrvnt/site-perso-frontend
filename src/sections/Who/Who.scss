@@ -13,13 +13,6 @@
   align-items: center;
 }
 
-.who-media {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-right: 50px;
-}
-
 .button {
   align-self: center;
   background: #3b6661;
@@ -46,10 +39,63 @@ h2 {
   text-align: center;
 }
 
+.who-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.who-skills-container {
+  margin: 15px;
+  width: 250px;
+}
+
+.who-skills-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  color: #3b6661;
+}
+
+h4 {
+  color: #3b6661;
+  margin: 0px;
+}
+
+.who-progress-bar {
+  display: flex;
+  height: 1rem;
+  background-color: #f2ece8;
+  border-radius: 0.25rem;
+}
+
+.who-percent {
+  background-color: #3b6661;
+  border-radius: 0.25rem;
+}
+
+.premier {
+  width: 70%;
+}
+
+.deuxième {
+  width: 80%;
+}
+
+.troisième {
+  width: 90%;
+}
+
+.who-picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .justine-profil {
-  height: 400px;
+  height: 250px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  margin-bottom: 20px;
+  margin: 20px 0px 20px 0px;
 }
 
 p {
@@ -58,12 +104,6 @@ p {
 
 span {
   font-weight: 400;
-}
-
-ul {
-  list-style-type: none;
-  font-weight: 400;
-  text-align: center;
 }
 
 .title-who {
