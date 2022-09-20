@@ -5,3 +5,27 @@
   background: #3b6661;
   color: #f2ece8;
 }
+
+.green-eco-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.green-block {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  text-align: start;
+  width: 300px;
+}
+
+.green-title {
+  font-size: 2em;
+  color: #6fa9a29c;
+  font-weight: 200;
+}
+
+.small-texte {
+  font-weight: 200;
+  font-size: 12px;
+}
