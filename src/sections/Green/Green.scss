@@ -1,6 +1,6 @@
 #green {
   padding: 80px 15% 80px 15%;
-  font-size: 18px;
+  font-size: 22px;
   text-align: justify;
   background: #3b6661;
   color: #f2ece8;
@@ -28,4 +28,10 @@
 .small-texte {
   font-weight: 200;
   font-size: 12px;
+}
+
+@media screen and (max-width: 810px) {
+  #green {
+    font-size: 18px;
+  }
 }

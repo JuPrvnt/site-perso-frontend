@@ -2,7 +2,7 @@
 
 #who {
   padding: 80px 15% 80px 15%;
-  font-size: 18px;
+  font-size: 22px;
   text-align: justify;
   background-color: #b5a396;
   color: #f2ece8;
@@ -120,6 +120,9 @@ span {
 }
 
 @media screen and (max-width: 810px) {
+  #who {
+    font-size: 18px;
+  }
   .who-content {
     flex-direction: column;
   }
