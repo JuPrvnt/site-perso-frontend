@@ -49,17 +49,18 @@ const Green = () => {
               un effet positif sur l’impact environnemental des sites web.
               <br /> <br />
               <span>Mais quel intérêt pour vous</span> ? Au-delà de participer à
-              la préservation de notre environnement, cela vous permettra
-              d'avoir des arguments supplémentaires. En précisant que vos outils
-              sont éco-conçus, vous serez l'un des pionniers dans votre secteur.{" "}
-              <br />
+              la préservation de notre environnement, cela vous permettra de
+              vous différencier et facilitera ventes et/ou investissements en
+              faveur de votre structure. En précisant que vos outils sont
+              éco-conçus, vous vous positionnerez comme pionnier dans votre
+              secteur d'activité. <br />
               <br />
             </p>
           </div>
         </div>
         <span className="center">
-          🌿 Je serais ravies de vous aider à surfer sur le web, mais aussi sur
-          la vague verte 🌿
+          🌿 Surfer sur le web, c'est bien, surfer sur la vague verte, c'est
+          mieux. 🌿
         </span>
       </div>
     </div>
