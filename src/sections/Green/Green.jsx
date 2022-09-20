@@ -1,9 +1,17 @@
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 import "./Green.scss";
 
 const Green = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <div id="green">
-      <div className="green-eco-content">
+      <div data-aos="fade-right" className="green-eco-content">
         <h2 className="title-green">Mon ambition : éco-développer.</h2>
         <p>
           Aujourd'hui je me suis lancée comme ambition d'« éco-développer ».
