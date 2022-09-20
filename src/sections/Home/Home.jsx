@@ -1,8 +1,6 @@
 import Who from "../Who/Who.jsx";
 import Green from "../Green/Green.jsx";
 import Portfolio from "../Portfolio/Portfolio.jsx";
-import Services from "../Services/Services.jsx";
-import Partnership from "../Partnership/Partnership.jsx";
 import Contact from "../Contact/Contact.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import Menu from "../../components/Menu/Menu";
@@ -12,7 +10,7 @@ import "./Home.scss";
 
 const Home = () => {
   return (
-    <div>
+    <div className="smooth-wrapper">
       <div id="home">
         <Menu></Menu>
         <img className="background" src={background} alt="background"></img>
