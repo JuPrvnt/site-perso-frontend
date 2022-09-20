@@ -51,8 +51,8 @@ const Green = () => {
               <span>Mais quel intérêt pour vous</span> ? Au-delà de participer à
               la préservation de notre environnement, cela vous permettra
               d'avoir des arguments supplémentaires. En précisant que vos outils
-              sont éco-conçus, vous serez l'un des pionniers dans votre secteur
-              à intégrer la programmation consciente dans vos activités. <br />
+              sont éco-conçus, vous serez l'un des pionniers dans votre secteur.{" "}
+              <br />
               <br />
             </p>
           </div>
