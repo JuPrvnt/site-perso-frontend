@@ -14,8 +14,8 @@ const Green = () => {
       <div data-aos="fade-right" className="green-eco-content">
         <h2 className="title-green">Mon ambition : éco-développer.</h2>
         <p>
-          Aujourd'hui je me suis lancée comme ambition d'« éco-développer ».
-          Mais pourquoi ? Et de quoi s'agit-il ? <br />
+          Aujourd'hui j'ai pour ambition d'« éco-développer ». Mais pourquoi ?
+          Et de quoi s'agit-il ? <br />
           <br />
           <span>Funfact</span> : si internet était un pays, il serait le 3e plus
           gros consommateur d'énergie au monde après les États-Unis et la Chine
