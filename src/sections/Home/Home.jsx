@@ -6,6 +6,7 @@ import Footer from "../../components/Footer/Footer.jsx";
 import Menu from "../../components/Menu/Menu";
 import background from "../../assets/background.jpg";
 import logo from "../../assets/logo-home.png";
+import TypeWriterEffect from "react-typewriter-effect";
 import "./Home.scss";
 
 const Home = () => {
@@ -17,10 +18,18 @@ const Home = () => {
         <a href="#home">
           <img className="logo" src={logo} alt="logo"></img>
         </a>
-        <h1 className="text flex column absolute">
+        <div className="text flex column absolute">
           <div className="name">Justine Provent</div>
-          <div className="title">Développeuse Web Responsable</div>
-        </h1>
+          <h1>
+            <TypeWriterEffect
+              className="title"
+              startDelay={3000}
+              cursorColor="black"
+              text="Développeuse Web Responsable"
+              typeSpeed={100}
+            />
+          </h1>
+        </div>
         <a href="#who" className="arrow">
           <svg
             className="arrow"
