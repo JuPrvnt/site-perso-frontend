@@ -15,9 +15,19 @@ const Footer = () => {
             Qui suis-je ?
           </a>{" "}
           -
+          <a className="white-links" href="#skills">
+            {" "}
+            Mes compétences
+          </a>{" "}
+          -
           <a className="white-links" href="#portfolio">
             {" "}
             Mon portfolio
+          </a>{" "}
+          -
+          <a className="white-links" href="#green">
+            {" "}
+            Mon ambition
           </a>{" "}
           -{" "}
           <a className="white-links" href="#contact">

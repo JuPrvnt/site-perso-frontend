@@ -1,4 +1,5 @@
 import Who from "../Who/Who.jsx";
+import Skills from "../Skills/Skills.jsx";
 import Green from "../Green/Green.jsx";
 import Portfolio from "../Portfolio/Portfolio.jsx";
 import Contact from "../Contact/Contact.jsx";
@@ -55,8 +56,9 @@ const Home = () => {
         </a>
       </div>
       <Who></Who>
-      <Green></Green>
+      <Skills></Skills>
       <Portfolio></Portfolio>
+      <Green></Green>
       <Contact></Contact>
       <Footer></Footer>
     </div>

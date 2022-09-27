@@ -16,9 +16,7 @@ const Portfolio = () => {
       <div data-aos="fade-left">
         <h2>
           Mon portfolio{" "}
-          <span className="portfolio-text">
-            (qui n'attend plus que vos projets)
-          </span>
+          <span className="portfolio-text">(qui n'attend que vos projets)</span>
           .
         </h2>
         <div className="portfolio-content">
