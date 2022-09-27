@@ -1,5 +1,5 @@
 #skills {
-  padding: 80px 15% 80px 15%;
+  padding: 80px 20% 80px 20%;
   font-size: 22px;
   text-align: justify;
   background-color: #b5a396;
@@ -46,41 +46,166 @@ h4 {
   border-radius: 0.25rem;
 }
 
-.skills-percent {
+.seventy {
   background-color: #3b6661;
   border-radius: 0.25rem;
-}
 
-.seventy {
-  width: 70%;
+  transition-property: width, background-color;
+  animation: progressseventy 5s infinite;
+
+  @keyframes progressseventy {
+    0% {
+      width: 0%;
+      background: #3b6661;
+    }
+    70% {
+      width: 70%;
+    }
+    100% {
+      width: 70%;
+      background: #3b6661;
+    }
+  }
 }
 
 .seventyfive {
-  width: 75%;
+  background-color: #3b6661;
+  border-radius: 0.25rem;
+
+  transition-property: width, background-color;
+  animation: progressseventyfive 5s infinite;
+
+  @keyframes progressseventyfive {
+    0% {
+      width: 0%;
+    }
+    70% {
+      width: 75%;
+    }
+    100% {
+      width: 75%;
+    }
+  }
 }
 
 .eighty {
-  width: 80%;
+  background-color: #3b6661;
+  border-radius: 0.25rem;
+
+  transition-property: width, background-color;
+  animation: progresseighty 5s infinite;
+
+  @keyframes progresseighty {
+    0% {
+      width: 0%;
+    }
+    70% {
+      width: 80%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
 }
 
 .eightyfive {
-  width: 85%;
+  background-color: #3b6661;
+  border-radius: 0.25rem;
+
+  transition-property: width, background-color;
+  animation: progresseightyfive 5s infinite;
+
+  @keyframes progresseightyfive {
+    0% {
+      width: 0%;
+    }
+    70% {
+      width: 85%;
+    }
+    100% {
+      width: 85%;
+    }
+  }
 }
 
 .ninety {
-  width: 90%;
+  background-color: #3b6661;
+  border-radius: 0.25rem;
+
+  transition-property: width, background-color;
+  animation: progressninety 5s infinite;
+
+  @keyframes progressninety {
+    0% {
+      width: 0%;
+    }
+    70% {
+      width: 90%;
+    }
+    100% {
+      width: 90%;
+    }
+  }
 }
 
 .ninetyfive {
-  width: 95%;
+  background-color: #3b6661;
+  border-radius: 0.25rem;
+
+  transition-property: width, background-color;
+  animation: progressninetyfive 5s infinite;
+
+  @keyframes progressninetyfive {
+    0% {
+      width: 0%;
+    }
+    70% {
+      width: 95%;
+    }
+    100% {
+      width: 95%;
+    }
+  }
 }
 
 .ninetynine {
-  width: 99%;
+  background-color: #3b6661;
+  border-radius: 0.25rem;
+
+  transition-property: width, background-color;
+  animation: progressninetynine 5s infinite;
+
+  @keyframes progressninetynine {
+    0% {
+      width: 0%;
+    }
+    70% {
+      width: 99%;
+    }
+    100% {
+      width: 99%;
+    }
+  }
 }
 
 .hundred {
-  width: 100%;
+  background-color: #3b6661;
+  border-radius: 0.25rem;
+
+  transition-property: width, background-color;
+  animation: progresshundred 5s infinite;
+
+  @keyframes progresshundred {
+    0% {
+      width: 0%;
+    }
+    70% {
+      width: 100%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
 }
 
 @media screen and (max-width: 810px) {

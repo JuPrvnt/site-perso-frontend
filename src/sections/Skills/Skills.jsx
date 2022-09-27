@@ -19,82 +19,73 @@ const Skills = () => {
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>HTML</h4>
-                <span className="font-light">95%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent ninetyfive"></div>
+                <div className="ninetyfive"></div>
               </div>
             </div>
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>CSS (et SASS)</h4>
-                <span className="font-light">90%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent ninety"></div>
+                <div className="ninety"></div>
               </div>
             </div>
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>React.js</h4>
-                <span className="font-light">80%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent eighty"></div>
+                <div className="eighty"></div>
               </div>
             </div>
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>Node.js</h4>
-                <span className="font-light">75%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent seventyfive"></div>
+                <div className="seventyfive"></div>
               </div>
             </div>
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>SQL (PostgreSQL)</h4>
-                <span className="font-light">70%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent seventy"></div>
+                <div className="seventy"></div>
               </div>
             </div>
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>Gestion de projet agile</h4>
-                <span className="font-light">80%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent eighty"></div>
+                <div className="eighty"></div>
               </div>
             </div>
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>UX design</h4>
-                <span className="font-light">85%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent eightyfive"></div>
+                <div className="eightyfive"></div>
               </div>
             </div>
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>Création graphique</h4>
-                <span className="font-light">80%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent eighty"></div>
+                <div className="eighty"></div>
               </div>
             </div>
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>Référencement</h4>
-                <span className="font-light">70%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent seventy"></div>
+                <div className="seventy"></div>
               </div>
             </div>
           </div>
@@ -103,74 +94,66 @@ const Skills = () => {
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>Autonomie</h4>
-                <span className="font-light">90%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent ninety"></div>
+                <div className="ninety"></div>
               </div>
             </div>
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>Organisation</h4>
-                <span className="font-light">100%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent hundred"></div>
+                <div className="hundred"></div>
               </div>
             </div>
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>Adaptabilité</h4>
-                <span className="font-light">80%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent eighty"></div>
+                <div className="eighty"></div>
               </div>
             </div>
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>Créativité</h4>
-                <span className="font-light">70%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent seventy"></div>
+                <div className="seventy"></div>
               </div>
             </div>
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>Curiosité</h4>
-                <span className="font-light">90%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent ninety"></div>
+                <div className="ninety"></div>
               </div>
             </div>
             <h3>Langues</h3>
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>Français</h4>
-                <span className="font-light">99%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent ninetynine"></div>
+                <div className="ninetynine"></div>
               </div>
             </div>
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>Anglais</h4>
-                <span className="font-light">85%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent eightyfive"></div>
+                <div className="eightyfive"></div>
               </div>
             </div>
             <div className="skills-container">
               <div className="skills-bar">
                 <h4>Espagnol</h4>
-                <span className="font-light">70%</span>
               </div>
               <div className="skills-progress-bar">
-                <div className="skills-percent seventy"></div>
+                <div className="seventy"></div>
               </div>
             </div>
           </div>

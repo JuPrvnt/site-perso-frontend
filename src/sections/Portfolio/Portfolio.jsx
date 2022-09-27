@@ -27,8 +27,8 @@ const Portfolio = () => {
               alt="logo-ohmyfood"
             ></img>
             <p className="portfolio-text">
-              Intégration des différentes maquettes, sans utilisation de
-              framework. Mise en place des animations demandées.
+              Intégration de maquettes. <br />
+              Mise en place des animations demandées.
             </p>
             <a
               className="text-decoration-none"
@@ -46,8 +46,8 @@ const Portfolio = () => {
               alt="logo-groupomania"
             ></img>
             <p className="portfolio-text">
-              Création d’un réseau social d'entreprise (backend, frontend, bdd)
-              à l'aide d'un framework (React.js)
+              Création d’un réseau social d'entreprise. <br /> Réalisé avec
+              React.js, Node.js et PostgreSQL.
             </p>
             <a
               className="text-decoration-none"

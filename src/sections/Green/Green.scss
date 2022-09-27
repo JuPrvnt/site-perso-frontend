@@ -1,5 +1,5 @@
 #green {
-  padding: 80px 15% 80px 15%;
+  padding: 80px 20% 80px 20%;
   font-size: 22px;
   text-align: justify;
   background: #3b6661;
@@ -17,18 +17,23 @@
   flex-direction: column;
   margin: 40px;
   text-align: start;
-  width: 300px;
+  width: 40%;
 }
 
 .green-title {
   font-size: 2em;
-  color: #3b6661;
+  color: #f2ece8;
   font-weight: 200;
 }
 
 .small-texte {
   font-weight: 200;
   font-size: 12px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
 
 @media screen and (max-width: 810px) {
