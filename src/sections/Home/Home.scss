@@ -22,6 +22,7 @@
 
 .text {
   align-self: center;
+  flex-wrap: wrap;
 }
 
 .flex {
@@ -48,21 +49,22 @@ h1 {
   font-size: 50px;
   font-weight: 200;
   margin: -20px;
+  text-align: center;
+  display: contents;
+  margin: -20px;
+  flex-wrap: wrap;
 }
 
 .arrow {
   display: flex;
   fill: #f2ece8;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   align-self: center;
   bottom: 3%;
   position: absolute;
-
-  &:first {
-    animation: bounce 0.35s ease infinite alternate;
-    cursor: pointer;
-  }
+  animation: bounce 0.35s ease infinite alternate;
+  cursor: pointer;
 
   @keyframes bounce {
     from {
@@ -72,18 +74,31 @@ h1 {
       transform: translateY(-20px);
     }
   }
+}
 
-  &:hover {
-    animation: bounce 0.35s ease infinite alternate;
-    cursor: pointer;
+@media screen and (max-width: 520px) {
+  .name {
+    font-size: 30px;
   }
+  h1 {
+    font-size: 10px;
+  }
+}
 
-  @keyframes bounce {
-    from {
-      transform: translateY(0);
-    }
-    to {
-      transform: translateY(-20px);
-    }
+@media screen and (max-width: 760px) {
+  .name {
+    font-size: 50px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .name {
+    font-size: 80px;
+  }
+  h1 {
+    font-size: 40px;
   }
 }
