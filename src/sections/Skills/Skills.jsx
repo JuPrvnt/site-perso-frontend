@@ -1,13 +1,20 @@
 import Aos from "aos";
+import ScrollReveal from "scrollreveal";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-
 import "./Skills.scss";
 
 const Skills = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
+
+  const sr = ScrollReveal();
+
+  sr.reveal(".scrollreveal", {
+    duration: 2000,
+    reset: true,
+  });
 
   return (
     <div id="skills">
@@ -21,7 +28,7 @@ const Skills = () => {
                 <h4>HTML</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="ninetyfive"></div>
+                <div className="ninetyfive scrollreveal"></div>
               </div>
             </div>
             <div className="skills-container">
@@ -29,7 +36,7 @@ const Skills = () => {
                 <h4>CSS (et SASS)</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="ninety"></div>
+                <div className="ninety scrollreveal"></div>
               </div>
             </div>
             <div className="skills-container">
@@ -37,7 +44,7 @@ const Skills = () => {
                 <h4>React.js</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="eighty"></div>
+                <div className="eighty scrollreveal"></div>
               </div>
             </div>
             <div className="skills-container">
@@ -45,7 +52,7 @@ const Skills = () => {
                 <h4>Node.js</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="seventyfive"></div>
+                <div className="seventyfive scrollreveal"></div>
               </div>
             </div>
             <div className="skills-container">
@@ -53,7 +60,7 @@ const Skills = () => {
                 <h4>SQL (PostgreSQL)</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="seventy"></div>
+                <div className="seventy scrollreveal"></div>
               </div>
             </div>
             <div className="skills-container">
@@ -61,7 +68,7 @@ const Skills = () => {
                 <h4>Gestion de projet agile</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="eighty"></div>
+                <div className="eighty scrollreveal"></div>
               </div>
             </div>
             <div className="skills-container">
@@ -69,7 +76,7 @@ const Skills = () => {
                 <h4>UX design</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="eightyfive"></div>
+                <div className="eightyfive scrollreveal"></div>
               </div>
             </div>
             <div className="skills-container">
@@ -77,7 +84,7 @@ const Skills = () => {
                 <h4>Création graphique</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="eighty"></div>
+                <div className="eighty scrollreveal"></div>
               </div>
             </div>
             <div className="skills-container">
@@ -85,7 +92,7 @@ const Skills = () => {
                 <h4>Référencement</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="seventy"></div>
+                <div className="seventy scrollreveal"></div>
               </div>
             </div>
           </div>
@@ -96,7 +103,7 @@ const Skills = () => {
                 <h4>Autonomie</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="ninety"></div>
+                <div className="ninety scrollreveal"></div>
               </div>
             </div>
             <div className="skills-container">
@@ -104,7 +111,7 @@ const Skills = () => {
                 <h4>Organisation</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="hundred"></div>
+                <div className="hundred scrollreveal"></div>
               </div>
             </div>
             <div className="skills-container">
@@ -112,7 +119,7 @@ const Skills = () => {
                 <h4>Adaptabilité</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="eighty"></div>
+                <div className="eighty scrollreveal"></div>
               </div>
             </div>
             <div className="skills-container">
@@ -120,7 +127,7 @@ const Skills = () => {
                 <h4>Créativité</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="seventy"></div>
+                <div className="seventy scrollreveal"></div>
               </div>
             </div>
             <div className="skills-container">
@@ -128,7 +135,7 @@ const Skills = () => {
                 <h4>Curiosité</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="ninety"></div>
+                <div className="ninety scrollreveal"></div>
               </div>
             </div>
             <h3>Langues</h3>
@@ -137,7 +144,7 @@ const Skills = () => {
                 <h4>Français</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="ninetynine"></div>
+                <div className="ninetynine scrollreveal"></div>
               </div>
             </div>
             <div className="skills-container">
@@ -145,7 +152,7 @@ const Skills = () => {
                 <h4>Anglais</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="eightyfive"></div>
+                <div className="eightyfive scrollreveal"></div>
               </div>
             </div>
             <div className="skills-container">
@@ -153,7 +160,7 @@ const Skills = () => {
                 <h4>Espagnol</h4>
               </div>
               <div className="skills-progress-bar">
-                <div className="seventy"></div>
+                <div className="seventy scrollreveal"></div>
               </div>
             </div>
           </div>
