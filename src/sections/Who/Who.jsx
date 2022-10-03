@@ -14,7 +14,7 @@ const Who = () => {
 
   return (
     <div id="who">
-      <div data-aos="fade-left">
+      <div data-aos="fade-right">
         <h2>Qui suis-je ?</h2>
         <div className="who-content">
           <div className="who-media">
