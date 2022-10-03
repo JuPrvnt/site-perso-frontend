@@ -34,13 +34,18 @@ const Menu = () => {
               </a>
             </li>
             <li>
-              <a className="link-menu" href="#green" onClick={handleClick}>
-                Éco-responsable
+              <a className="link-menu" href="#skills" onClick={handleClick}>
+                Mes compétences
               </a>
             </li>
             <li>
               <a className="link-menu" href="#portfolio" onClick={handleClick}>
                 Portfolio
+              </a>
+            </li>
+            <li>
+              <a className="link-menu" href="#green" onClick={handleClick}>
+                Éco-développer
               </a>
             </li>
             <li>

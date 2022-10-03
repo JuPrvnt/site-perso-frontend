@@ -138,6 +138,8 @@ const Skills = () => {
                 <div className="ninety scrollreveal"></div>
               </div>
             </div>
+          </div>
+          <div className="language-skills">
             <h3>Langues</h3>
             <div className="skills-container">
               <div className="skills-bar">
