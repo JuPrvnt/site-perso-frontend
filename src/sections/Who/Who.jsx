@@ -43,6 +43,7 @@ const Who = () => {
               alt="justine-profil"
             ></img>
             <a
+              className="center"
               href={CV}
               alt="CV_Justine_Provent"
               target="_blank"

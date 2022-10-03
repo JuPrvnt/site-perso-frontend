@@ -9,7 +9,7 @@
 
 .green-eco-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .green-block {
@@ -17,7 +17,7 @@
   flex-direction: column;
   margin: 40px;
   text-align: start;
-  width: 40%;
+  width: 50%;
 }
 
 .green-title {
@@ -34,10 +34,18 @@
 .center {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 @media screen and (max-width: 810px) {
   #green {
     font-size: 18px;
+  }
+  .green-eco-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .green-block {
+    width: auto;
   }
 }

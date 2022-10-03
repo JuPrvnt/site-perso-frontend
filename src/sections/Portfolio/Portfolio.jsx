@@ -2,8 +2,8 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-import ohmyfood from "../../assets/logo-ohmyfood.png";
-import groupomania from "../../assets/logo-groupomania.png";
+import ohmyfood from "../../assets/ohmyfood.png";
+import groupomania from "../../assets/groupomania.png";
 import "./Portfolio.scss";
 
 const Portfolio = () => {
@@ -23,43 +23,44 @@ const Portfolio = () => {
           .
         </h2>
         <div className="portfolio-content">
-          <div className="portfolio-cards">
-            <img
-              className="portfolio-logo"
-              src={ohmyfood}
-              alt="logo-ohmyfood"
-            ></img>
-            <p className="portfolio-text">
-              Intégration de maquettes. <br />
-              Mise en place des animations demandées.
-            </p>
-            <a
-              className="text-decoration-none"
-              href="https://juprvnt.github.io/JustineProvent_3_02122021/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="portfolio-button">C'est par ici</div>
-            </a>
+          <div className="wrapper">
+            <div className="single-card">
+              <img className="front" src={ohmyfood} alt="ohmyfood"></img>
+              <div className="back">
+                <div className="content">
+                  <a
+                    className="portfolio-links"
+                    href="https://juprvnt.github.io/JustineProvent_3_02122021/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <h4>Réalisé avec HTML / CSS / SASS</h4>
+                    <p>
+                      Intégration de maquettes. <br />
+                      Mise en place d'animations.{" "}
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="portfolio-cards">
-            <img
-              className="portfolio-logo"
-              src={groupomania}
-              alt="logo-groupomania"
-            ></img>
-            <p className="portfolio-text">
-              Création d’un réseau social d'entreprise. <br /> Réalisé avec
-              React.js, Node.js et PostgreSQL.
-            </p>
-            <a
-              className="text-decoration-none"
-              href="https://justine-provent-7-16032022-front.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="portfolio-button">Le résultat</div>
-            </a>
+          <div className="wrapper">
+            <div className="single-card">
+              <img className="front" src={groupomania} alt="groupomania"></img>
+              <div className="back">
+                <div className="content">
+                  <a
+                    className="portfolio-links"
+                    href="https://justine-provent-7-16032022-front.vercel.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <h4>Réalisé avec React.js / Node.js / PostgreSQL.</h4>
+                    <p>Création d’un réseau social d'entreprise.</p>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

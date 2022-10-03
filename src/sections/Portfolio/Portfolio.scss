@@ -9,32 +9,6 @@
   height: 100%;
 }
 
-.portfolio-content {
-  display: flex;
-  flex-direction: row;
-}
-
-.text-decoration-none {
-  text-decoration: none;
-}
-
-.portfolio-cards {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
-  border-style: solid;
-  border-color: #3b6661;
-  border-width: 2px;
-  margin: 10px;
-  padding: 15px;
-  width: 300px;
-}
-
-.portfolio-logo {
-  width: 200px;
-}
-
 .portfolio-text {
   margin: 20px 0px 10px 0px;
   font-family: "Dosis", "Roboto", sans-serif;
@@ -42,21 +16,74 @@
   font-weight: 200;
 }
 
-.portfolio-button {
+.portfolio-content {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  font-weight: 400;
-  color: #f2ece8;
-  background-color: #3b6661;
-  width: 180px;
-  height: 40px;
-  border-radius: 25px;
-  cursor: pointer;
+}
 
-  &:hover {
-    opacity: 0.7;
-  }
+.wrapper,
+.single-card {
+  height: 100%;
+  max-width: 300px;
+  margin: relative;
+}
+
+.wrapper {
+  perspective: 900px;
+  margin: 5%;
+}
+
+.single-card {
+  text-align: center;
+  transition: all 1.5s cubic-bezier(0.7, -0.5, 0.3, 1.8);
+  transform-style: preserve-3d;
+}
+
+.wrapper:hover .single-card {
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  width: 300px;
+  position: relative;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+}
+
+.front {
+  cursor: pointer;
+  height: 100%;
+  backface-visibility: hidden;
+  background-size: contain;
+  background-position: center center;
+}
+
+.back {
+  transform: rotateY(180deg);
+  position: absolute;
+  height: 100%;
+  background-color: #3b6661;
+}
+
+.content {
+  padding: 20%;
+}
+
+.content h4 {
+  margin: 0;
+  font-weight: 500;
+  color: #f2ece8;
+}
+
+.portfolio-links {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #f2ece8;
 }
 
 @media screen and (max-width: 900px) {
