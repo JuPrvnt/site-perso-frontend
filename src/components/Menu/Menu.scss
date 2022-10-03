@@ -101,3 +101,12 @@ ul {
   font-size: 20px;
   font-weight: 200;
 }
+
+@media screen and (max-width: 480px) {
+  .menu-text {
+    font-size: 20px;
+  }
+  .link-menu {
+    font-size: 15px;
+  }
+}
