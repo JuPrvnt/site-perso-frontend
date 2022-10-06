@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import background from "../../assets/background.jpg";
-import logo from "../../assets/logo-home.png";
+import background from "../../assets/background.webp";
+import logo from "../../assets/logo-home.webp";
 import "./Legal.scss";
 
 const Legal = () => {

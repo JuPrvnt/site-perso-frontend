@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import passion from "../../assets/passion.png";
+import passion from "../../assets/passion.webp";
 import "./Footer.scss";
 
 const Footer = () => {

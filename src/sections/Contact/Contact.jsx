@@ -3,9 +3,9 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 import "./Contact.scss";
-import mail from "../../assets/gmail.png";
-import linkedin from "../../assets/linkedin.png";
-import malt from "../../assets/malt.png";
+import mail from "../../assets/gmail.webp";
+import linkedin from "../../assets/linkedin.webp";
+import malt from "../../assets/malt.webp";
 
 const Contact = () => {
   useEffect(() => {

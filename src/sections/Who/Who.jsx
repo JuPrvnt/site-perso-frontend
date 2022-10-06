@@ -2,7 +2,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-import Justine from "../../assets/justine-profil.jpg";
+import Justine from "../../assets/justine-profil.webp";
 import CV from "../../assets/CV_Justine_Provent.pdf";
 import Diplôme from "../../assets/Diplome web dev.pdf";
 import "./Who.scss";

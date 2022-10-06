@@ -5,8 +5,8 @@ import Portfolio from "../Portfolio/Portfolio.jsx";
 import Contact from "../Contact/Contact.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import Menu from "../../components/Menu/Menu";
-import background from "../../assets/background.jpg";
-import logo from "../../assets/logo-home.png";
+import background from "../../assets/background.webp";
+import logo from "../../assets/logo-home.webp";
 import TypeWriterEffect from "react-typewriter-effect";
 import "./Home.scss";
 
