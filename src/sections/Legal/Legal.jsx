@@ -11,7 +11,7 @@ const Legal = () => {
         <img className="logo" src={logo} alt="logo"></img>
       </Link>
       <div className="background-legal-white">
-        <h2>MENTIONS LÉGALES</h2>
+        <h4>MENTIONS LÉGALES</h4>
         <p className="title-legal">Définitions</p>
         <p>
           <b>Client :</b> tout professionnel ou personne physique capable au
