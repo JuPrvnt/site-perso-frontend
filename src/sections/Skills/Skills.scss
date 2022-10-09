@@ -1,6 +1,6 @@
 #skills {
   padding: 80px 20% 80px 20%;
-  font-size: 22px;
+  font-size: clamp(16px, 5vw, 18px);
   text-align: justify;
   background-color: #b5a396;
   color: #f2ece8;
@@ -93,10 +93,4 @@ h4 {
   background-color: #3b6661;
   border-radius: 0.25rem;
   width: 100%;
-}
-
-@media screen and (max-width: 810px) {
-  #skills {
-    font-size: 18px;
-  }
 }

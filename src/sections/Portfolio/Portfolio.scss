@@ -3,7 +3,7 @@
   align-items: center;
   flex-direction: column;
   padding: 80px 20% 80px 20%;
-  font-size: 17px;
+  font-size: clamp(16px, 5vw, 18px);
   background-color: #f2ece8;
   color: #3b6661;
   height: 100%;
@@ -12,7 +12,7 @@
 .portfolio-text {
   margin: 20px 0px 10px 0px;
   font-family: "Dosis", "Roboto", sans-serif;
-  font-size: 17px;
+  font-size: clamp(16px, 5vw, 18px);
   font-weight: 200;
 }
 

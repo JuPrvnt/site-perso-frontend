@@ -1,6 +1,6 @@
 #green {
   padding: 80px 20% 80px 20%;
-  font-size: 22px;
+  font-size: clamp(16px, 5vw, 18px);
   text-align: justify;
   background: #3b6661;
   color: #f2ece8;
@@ -21,14 +21,14 @@
 }
 
 .green-title {
-  font-size: 2em;
+  font-size: clamp(20px, 2em, 30px);
   color: #f2ece8;
   font-weight: 200;
 }
 
 .small-texte {
   font-weight: 200;
-  font-size: 12px;
+  font-size: clamp(11px, 5vw, 12px);
 }
 
 .center {
@@ -38,9 +38,6 @@
 }
 
 @media screen and (max-width: 810px) {
-  #green {
-    font-size: 18px;
-  }
   .green-eco-content {
     flex-direction: column;
     align-items: center;

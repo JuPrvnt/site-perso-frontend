@@ -39,7 +39,7 @@
 }
 
 .name {
-  font-size: 5em;
+  font-size: clamp(20px, 4em, 70px);
   font-weight: 300;
   color: #3b6661;
   margin-bottom: -25px;
@@ -49,7 +49,7 @@ h1 {
   display: flex;
   justify-content: center;
   font-family: "Shadows Into Light Two", "Segoe UI", Tahoma, Verdana, sans-serif;
-  font-size: 1.6em;
+  font-size: clamp(20px, 1.6em, 70px);
   font-weight: 200;
   text-align: center;
   display: contents;
@@ -79,13 +79,6 @@ h1 {
 }
 
 @media screen and (max-width: 480px) {
-  .name {
-    font-size: 3.5em;
-    margin-bottom: -10px;
-  }
-  h1 {
-    font-size: 1.2em;
-  }
   .logo {
     visibility: hidden;
   }

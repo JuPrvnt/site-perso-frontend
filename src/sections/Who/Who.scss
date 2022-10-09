@@ -3,7 +3,7 @@
 
 #who {
   padding: 80px 20% 80px 20%;
-  font-size: 22px;
+  font-size: clamp(16px, 5vw, 18px);
   background-color: #f2ece8;
   color: #3b6661;
   height: 100%;
@@ -12,7 +12,7 @@
 h2 {
   font-family: "Shadows Into Light Two", "Segoe UI", Tahoma, Verdana, sans-serif;
   margin: 0px 0px 40px 0px;
-  font-size: 50px;
+  font-size: clamp(40px, 7vw, 50px);
   font-weight: 400;
   text-align: center;
 }
@@ -62,16 +62,10 @@ span {
 }
 
 @media screen and (max-width: 810px) {
-  #who {
-    font-size: 18px;
-  }
   .who-content {
     flex-direction: column;
   }
   .who-media {
     margin-right: 0px;
-  }
-  h2 {
-    font-size: 40px;
   }
 }

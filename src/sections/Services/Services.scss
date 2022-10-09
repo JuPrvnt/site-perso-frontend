@@ -5,7 +5,7 @@
   background-color: #3b6661;
   color: #f2ece8;
   padding: 100px 15% 100px 15%;
-  font-size: 17px;
+  font-size: clamp(16px, 5vw, 18px);
 }
 
 .block-services {
