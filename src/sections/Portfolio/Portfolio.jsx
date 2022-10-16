@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 import ohmyfood from "../../assets/ohmyfood.png";
 import groupomania from "../../assets/groupomania.png";
+import memory from "../../assets/memory.png";
 import "./Portfolio.scss";
 
 const Portfolio = () => {
@@ -35,7 +36,7 @@ const Portfolio = () => {
                     rel="noreferrer"
                   >
                     <h4>Réalisé avec HTML / CSS / SASS</h4>
-                    <p>
+                    <p className="portfolio-text-cards">
                       Intégration de maquettes. <br />
                       Mise en place d'animations.{" "}
                     </p>
@@ -56,7 +57,29 @@ const Portfolio = () => {
                     rel="noreferrer"
                   >
                     <h4>Réalisé avec React.js / Node.js / PostgreSQL.</h4>
-                    <p>Création d’un réseau social d'entreprise.</p>
+                    <p className="portfolio-text-cards">
+                      Création d’un réseau social d'entreprise.
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="wrapper">
+            <div className="single-card">
+              <img className="front" src={memory} alt="jeu memory"></img>
+              <div className="back">
+                <div className="content">
+                  <a
+                    className="portfolio-links"
+                    href="https://juprvnt.github.io/jeu-memory-eco/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <h4>Réalisé avec JavaScript.</h4>
+                    <p className="portfolio-text-cards">
+                      Création d’un jeu de cartes mémory.
+                    </p>
                   </a>
                 </div>
               </div>
