@@ -23,7 +23,7 @@ const Home = () => {
           <div className="name">Justine Provent</div>
           <h1>
             <TypeWriterEffect
-              startDelay={3000}
+              startDelay={1500}
               cursorColor="black"
               text="Développeuse Web Responsable"
               typeSpeed={100}
