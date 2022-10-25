@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import ohmyfood from "../../assets/ohmyfood.png";
 import groupomania from "../../assets/groupomania.png";
 import memory from "../../assets/memory.png";
+import apicountries from "../../assets/apicountries.png";
 import "./Portfolio.scss";
 
 const Portfolio = () => {
@@ -79,6 +80,30 @@ const Portfolio = () => {
                     <h4>Réalisé avec JavaScript.</h4>
                     <p className="portfolio-text-cards">
                       Création d’un jeu de cartes mémory.
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="wrapper">
+            <div className="single-card">
+              <img
+                className="front"
+                src={apicountries}
+                alt="bibliothèque d'informations de tous les pays du monde"
+              ></img>
+              <div className="back">
+                <div className="content">
+                  <a
+                    className="portfolio-links"
+                    href="https://juprvnt.github.io/api-countries/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <h4>Réalisé avec JavaScript Native.</h4>
+                    <p className="portfolio-text-cards">
+                      Connexion avec une API et affichage de données.
                     </p>
                   </a>
                 </div>
